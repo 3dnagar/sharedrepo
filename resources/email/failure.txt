@@ -1,0 +1,7 @@
+Build FAILED
+
+Job: ${JOB_NAME}
+Build Number: ${BUILD_NUMBER}
+
+Console:
+${BUILD_URL}console
