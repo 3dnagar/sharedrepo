@@ -1,0 +1,17 @@
+def call(Map config = [:]) {
+
+    node('any') {
+
+        try {
+            stage('Checkout') {
+                checkout scm
+            }
+
+            preBuild()
+            buildStage()
+        }
+        finally {
+            postBuild(config.email)
+        }
+    }
+}
