@@ -1,0 +1,4 @@
+Build ABORTED
+
+Job: ${JOB_NAME}
+Build Number: ${BUILD_NUMBER}
