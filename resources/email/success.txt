@@ -1,0 +1,7 @@
+Build SUCCESSFUL
+
+Job: ${JOB_NAME}
+Build Number: ${BUILD_NUMBER}
+
+Artifacts:
+${BUILD_URL}artifact/
